@@ -1,14 +1,56 @@
+<!--
+  Generated template for the HomePage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
 <ion-header>
   <ion-navbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
+    <ion-buttons>
+      <button ion-button icon-only tappable (click)="toggleMenu()"><ion-icon name="md-menu"></ion-icon></button>
+    </ion-buttons>
+    <ion-title>Select a Category</ion-title>
   </ion-navbar>
 </ion-header>
 
+
 <ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+
+<ion-list>
+  <ion-item>
+      Drivers
+    <ion-icon name="car" color="secondary" item-end></ion-icon>
+  </ion-item>
+</ion-list>
+<ion-list>
+  <ion-item>
+      Mechanics
+    <ion-icon name="construct" color="primary" item-end></ion-icon>
+  </ion-item>
+</ion-list>
+<ion-list>
+  <ion-item>
+      Plumbers
+    <ion-icon name="build" color="basic" item-end></ion-icon>
+  </ion-item>
+</ion-list>
+<ion-list>
+  <ion-item>
+      Electricians
+    <ion-icon name="bulb" color="danger" item-end></ion-icon>
+  </ion-item>
+</ion-list>
+<ion-list>
+  <ion-item>
+      Event Planners
+    <ion-icon name="restaurant" item-end></ion-icon>
+  </ion-item>
+</ion-list>
+<ion-list>
+  <ion-item>
+      Tutors
+    <ion-icon name="book" color="warning" item-end></ion-icon>
+  </ion-item>
+</ion-list>
+
 </ion-content>

@@ -1,3 +1,17 @@
 page-home {
+   ion-list {
+    ion-item {
+      background: rgba(0, 0, 0, 0.3) !important;
+      color: #fff !important;
+    }
 
+    ion-item.activated {
+      background: rgba(0, 0, 0, 0.5) !important;
+      color: $primary !important;
+    }
+
+    ion-item.activated ion-icon {
+      color: $primary;
+    }
+  }
 }
